@@ -1,4 +1,4 @@
-# Lab: Linux File Management & Link Mechanics
+# Lab: Linux Files Management & Link Mechanics
 
 ## 📌 Objective
 To demonstrate mastery over the Linux filesystem architecture by managing directories, creating files, and analyzing the structural differences between Hard Links and Symbolic (Soft) Links.
