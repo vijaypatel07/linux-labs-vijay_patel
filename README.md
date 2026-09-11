@@ -13,7 +13,7 @@ Welcome to my hands-on Linux engineering showcase! This repository tracks my jou
 
 ## 📂 Completed Core Architecture Labs
 
-Hiring managers can explore my step-by-step documentation, command line verification, and system architecture breakdowns below:
+explore my step-by-step documentation, command line verification, and system architecture breakdowns below:
 
 *   **[Lab 02: File Management & Link Mechanics](./02-file-management/)**
     *   *Core Focus:* Structural differentiation between Hard Links and Symbolic (Soft) Links using Node tracking (`ls -li`).
