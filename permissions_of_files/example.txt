@@ -1,0 +1,14 @@
+-rw-rw-r-- represents the file permissions 
+The first character indicates the file type ( - for a regular file, d for directory, etc.). 
+
+The remaining characters represent read, write, and execute permissions for the owner, group, and others.
+
+The first labex is the current owner of the file. This is the username that owns the file.
+
+The second labex is the current group of the file. A group is a collection of users that can share permissions.
+
+0 is the file size in bytes. Since the file is empty, its size is zero.
+
+Jul 29 15:11 is the last modified date and time.
+
+example.txt is the file name.
