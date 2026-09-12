@@ -3,7 +3,7 @@
 
 Welcome to my hands-on Linux engineering showcase! This repository tracks my journey from foundational core commands to systems architecture, networking, automation, and security configurations.
 
-![System Verification Output](./linux-system-administrator.jpeg)
+![System Verification Output](./assets/linux-system-administrator.jpeg)
 ## 👤 Profile & Environment
 * **Name:** Vijay Patel  
 * **Role Objective:** Linux Systems Administrator / DevOps Engineer  
@@ -13,7 +13,7 @@ Welcome to my hands-on Linux engineering showcase! This repository tracks my jou
 
 ## 📂 Completed Core Architecture Labs
 
-explore my step-by-step documentation, command line verification, and system architecture breakdowns below:
+Hiring managers can explore my step-by-step documentation, command line verification, and system architecture breakdowns below:
 
 *   **[Lab 02: File Management & Link Mechanics](./02-file-management/)**
     *   *Core Focus:* Structural differentiation between Hard Links and Symbolic (Soft) Links using Node tracking (`ls -li`).
