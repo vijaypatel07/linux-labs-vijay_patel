@@ -84,3 +84,63 @@ new-dir/subdir:
 total 4
 -rw-rw-r-- 1 root root 13 Jul 29 09:15 file2.txt
 ````
+
+## 📁 Directory Permissions 
+
+### 1. Create directory
+
+```bash
+mkdir ~/test-dir
+```
+
+### 2. Check directory permissions
+
+```bash
+ls -ld ~/test-dir
+```
+
+* `-d` → directory itself show karega, contents nahi.
+
+### 3. Permission meaning for directories
+
+| Permission | Meaning                                                 |
+| ---------- | ------------------------------------------------------- |
+| `r`        | Directory ke contents **list** kar sakte ho (`ls`)      |
+| `w`        | Files/directories **create/delete/rename** kar sakte ho |
+| `x`        | Directory **access/traverse** kar sakte ho (`cd`)       |
+
+### 4. `chmod 700`
+
+```bash
+chmod 700 ~/test-dir
+```
+
+`700` = `rwx------`
+
+* Owner → `rwx`
+* Group → `---`
+* Others → `---`
+
+### 5. `chmod 755`
+
+```bash
+chmod 755 ~/test-dir
+```
+
+`755` = `rwxr-xr-x`
+
+* Owner → `rwx`
+* Group → `r-x`
+* Others → `r-x`
+
+### 6. Recursive permissions
+
+```bash
+chmod -R 755 ~/test-dir
+```
+
+`-R` → directory ke andar **all files/subdirectories** par permission apply karta hai.
+
+> ⚠️ **Important:** Empty directory ke liye `-R` ki zarurat nahi. `chmod 755 dir` enough hai. And blindly `chmod -R 755` karna files par unwanted execute permission de sakta hai.
+
+
