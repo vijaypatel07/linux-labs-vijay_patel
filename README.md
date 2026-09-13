@@ -3,7 +3,7 @@
 
 Welcome to my hands-on Linux engineering showcase! This repository tracks my journey from foundational core commands to systems architecture, networking, automation, and security configurations.
 
-![System Verification Output](./assets/linux-system-administrator.jpeg)
+![System Verification Output](./.assets/linux-system-administrator.jpeg)
 ## 👤 Profile & Environment
 * **Name:** Vijay Patel  
 * **Role Objective:** Linux Systems Administrator / DevOps Engineer  

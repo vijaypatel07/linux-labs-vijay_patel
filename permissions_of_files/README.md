@@ -18,7 +18,7 @@ ls -l example.txt
 > -rwxrwxrwx 1 vijay vijay 0 Sep 12 14:16 example.txt
 
 
-![System Verification Output](../assets/file_permission.png)
+![System Verification Output](../.assets/file_permission.png)
 
 
 ## 🗃️ Now, let's change the ownership of the file to the root user. root is the administrator
